@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100%;
+    width: 100%;
+    background-image:url(./image/juan-manuel-sanchez-FIxynjnyZ1I-unsplash.jpg);
+    background-repeat: no-repeat;
+    border-image-width: 100%;
+    background-position: center;
+    background-size:contain ;
+}
+#navigation_bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    margin: 20px;
+}
+.About_us{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    gap: 30px;
+}
+#navlink ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    gap: 20px;
+}
+.hero img{
+    height: 55px;
+    width: 55px;
+    border-radius: 50%;
+}
+
+
+#men{
+    height: 500px;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 60px;
+    margin: 20px;
+
+}
+#about{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+#about h2{
+    font-size: xx-large;
+}
+
+.open{
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+#about .circle{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: rgb(214, 86, 86);
+
+}
+.open h3{
+    position: absolute;
+    left: 20px;
+    font-size: 16px;
+    text-transform: capitalize;
+}
+
+
+.icon{
+    display: flex;
+    flex-direction:column;
+    gap: 10px;
+}
+.card{
+    display: flex;
+    gap: 5px;
+    justify-content: cenflexter;
+    align-items: center;
+}
+.hero-image-container{
+    height: 60px;
+    width: 60px;
+    background: orangered;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.hero-image-container img{
+    height: 100%;
+    width: 100%;
+}
+
+@media(max-width:768px) {
+    .navlink{
+        display: none;
+        
+    }
+    .show{
+        display: block;
+        position: fixed;
+        height: 100vh;
+        width: 20rem;
+        background: aquamarine;
+        top: 0;
+        right: 0;
+    }
+    .show ul{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .icon{
+        display: none;
+    }
+
+    
+ 
+
+}
